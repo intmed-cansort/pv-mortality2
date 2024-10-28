@@ -1,19 +1,14 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: "Association of Germline Pathogenic Variants in ATM, CHEK2 and PALB2 with Mortality from Breast, Colorectal, or Pancreatic Cancer"
 ---
 
-:::{#me}
+:::{#about-pvm2}
 
-## Goals
+## Kurian A et.al.
 
-## Education
-
-## Experience
+Supplemental information on data and complete model outputs as well as all R and Stata code used in the analyses presented in the paper
 
 :::
 
-Thanks for checking out my web site!
+
+

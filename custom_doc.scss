@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+$black:    #000000 !default;
+$body-color:    $black !default;
+
+/*-- scss:rules --*/
+
+
+.blackbox {
+  color: #000000;
+  background-color: transparent;
+  margin: 1px;
+  padding: 5px 2px 5px 2px;
+  height: 205px;
+  border: 2px solid;
+}
+
+.content-box-blue {
+  background-color: #F0F8FF;
+  border-radius: 10px;
+  padding: 5px;
+  font-size:1em;
+}
+
+.content-box-yellow {
+  background-color: #fef5c4;
+  border-radius: 10px;
+  padding: 5px;
+  font-size:1em;
+}
+
+.content-box-green {
+  background-color: #d9edc2;
+  border-radius: 10px;
+  padding: 5px;
+  font-size:1em;
+}
+
+.newthought {
+    font-variant: small-caps;
+    color:blue;
+}
+
+.big {
+  font-size:2em;
+}
+.biggest {
+  font-size:4em;
+}
+.small {
+  font-size:0.85em;
+  line-height: 80%;
+}
+
+.red{
+  color:red;
+}
+
+.math.inline .MathJax {
+  chtml: {
+    mtextInheritFont: true
+  }
+}
+
+.math.display .MathJax {
+  chtml: {
+    mtextInheritFont: true
+  }
+}

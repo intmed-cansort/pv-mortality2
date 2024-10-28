@@ -3,25 +3,36 @@ project:
   output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "Supplement - Germline PVs and cancer mortality"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - href: final_round.qmd
+        text: Main Analyses
     tools:
-      - icon: twitter
-        href: https://twitter.com/
       - icon: github
         href: https://github.com/YOURUSERNAME/YOURREPO
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
-
+    left: "&copy; Copyright 2024, Hofer TP"
+execute:
+  freeze: auto
 format:
   html:
-    theme: cerulean
+    theme: 
+      - cosmo
+      - custom_doc.scss
     toc: true
-
+    code-fold: true
+    code-summary: "code"
+    embed-resources: true
+    sidebar:
+      collapse-level: 3
+      pinned: true
+toc: true
+params:
+  frailty: "off"
+bibliography: references.bib
 editor: source
 
