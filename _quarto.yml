@@ -10,6 +10,8 @@ website:
         text: Home
       - href: final_round.qmd
         text: Main Analyses
+      - href: secondary.qmd
+        text: Additional analyses
     tools:
       - icon: github
         href: https://github.com/YOURUSERNAME/YOURREPO
@@ -31,8 +33,6 @@ format:
       collapse-level: 3
       pinned: true
 toc: true
-params:
-  frailty: "off"
 bibliography: references.bib
 editor: source
 
