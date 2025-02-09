@@ -3,16 +3,17 @@
 
 cff-version: 1.2.0
 title: >-
-  Supplemental materials for Breast, Colorectal, and
+  "Supplemental materials for Breast, Colorectal, and
   Pancreatic Cancer Mortality With Pathogenic Variants in
-  _ATM_, _CHEK2_, or _PALB2_
+  _ATM_, _CHEK2_, or _PALB2_""
 message: >-
-  Supplemental materials for DOI
-  https://doi.org/10.1200/JCO-24-02442
+  "Supplemental materials for DOI
+  https://doi.org/10.1200/JCO-24-02442"
 type: software
 authors:
-  - family-names: Hofer
-    given-names: Timothy
+  - given-names: "Timothy"
+    family-names: "Hofer"
+    email: "thofer@umich.edu"
     orcid: 'https://orcid.org/0000-0003-0434-8787'
 identifiers:
   - type: doi
@@ -24,4 +25,4 @@ abstract: >-
   Provides supplemental materials related to JCO publication
   DOI https://doi.org/10.1200/JCO-24-02442
 version: 1.01
-date-released: '2025-02-08'
+date-released: 2025-02-08
