@@ -1,12 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "Supplemental materials for DOI https://doi.org/10.1200/JCO-24-02442"
+title: >-
+  Supplemental materials for Breast, Colorectal, and
+  Pancreatic Cancer Mortality With Pathogenic Variants in
+  _ATM_, _CHEK2_, or _PALB2_
+message: >-
+  Supplemental materials for DOI
+  https://doi.org/10.1200/JCO-24-02442
+type: software
 authors:
   - family-names: Hofer
     given-names: Timothy
-    orcid: https://orcid.org/0000-0003-0434-8787
-title: "Supplemental materials for Breast, Colorectal, and Pancreatic Cancer Mortality With Pathogenic Variants in _ATM_, _CHEK2_, or _PALB2_"
-version: 1.01
+    orcid: 'https://orcid.org/0000-0003-0434-8787'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.1234
-date-released: 2025-02-08
+repository-code: >-
+  https://github.com/intmed-cansort/pv-mortality2/tree/supplement
+url: 'https://intmed-cansort.github.io/pv-mortality2/'
+abstract: >-
+  Provides supplemental materials related to JCO publication
+  DOI https://doi.org/10.1200/JCO-24-02442
+version: 1.01
+date-released: '2025-02-08'
